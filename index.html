@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My E-Commerce Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>My E-Commerce Store</h1>
+    <nav>
+      <ul>
+        <li><a href="#" onclick="filterProducts('house')"><u><b>House</b></u></a></li>
+        <li><a href="#" onclick="filterProducts('kitchen')"><u><b>Kitchen</b></u></a></li>
+        <li><a href="#" onclick="filterProducts('other')"><u><b>Other</b></u></a></li>
+        <li><a href="#"cart><u><b>Cart</b></u> 🛒</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="products" class="product-grid">
+    <!-- Products will be injected by JavaScript -->
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
